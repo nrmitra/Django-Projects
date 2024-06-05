@@ -7,3 +7,6 @@ def homepage(request):
 
 def about(request):
     return HttpResponse("About Page!")
+
+def index(request):
+    return render(request,'index.html')
